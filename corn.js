@@ -1,7 +1,10 @@
 /* global $ */
 $(document).ready(function(){
-    //code to trun goes here
-});
-$("button").click(function(){
-    alert("DID YOU JUST ASSUME MY GENDER");
+var answer = "word"
+
+   $("button").click(function(){
+    //alert("DID YOU JUST ASSUME MY GENDER");
+ alert($("#No").val());    
+
+   });
 });
